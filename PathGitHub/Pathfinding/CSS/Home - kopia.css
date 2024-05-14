@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(/PathGitHub/Pathfinding/Content/Lightbig.svg);
+}
+
+.darkMode {
+    background-color: black;
+}
+
+.VersionNumber {
+    margin-top: 20px;
+    margin-left: 80vw;
+    width: 140px;
+    height: 20px;
+    background-color: #8FD696;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-left: 60px;
+    box-shadow: 1px 1px 2px rgba(21, 21, 21, 0.9);
+
+}
+
+.BackgroundThing {
+    margin: 20px;
+    padding: 60px;
+    background-color: rgba(65, 65, 65, 0.6);
+    display: flex;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.option {
+    border-style: solid;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+    width: 370px;
+    border-radius: 15px;
+    background-color: #8FD696;
+    box-shadow: 1px 1px 2px rgba(21, 21, 21, 0.9);
+    border-width: 4px;
+    transition: transform 10s;
+}
+
+
+
+.option:hover {
+    color: white;
+}
+
+.pathfinder {
+    border-color: #2ce829;
+}
+
+.Help {
+    border-color: #e8fe5b;
+}
+
+.Settings {
+    border-color: #3c4042;
+}
+
+.Documentation {
+    border-color: #43dae5;
+}
+
+.Review {
+    border-color: #7758b5;
+}
+
+.darkMode {
+    background-color: black;
+}
